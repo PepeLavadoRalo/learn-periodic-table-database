@@ -455,3 +455,10 @@ git push origin main
 ls --color=auto periodic_table
 git status
 git add .
+git commit -m "chore: Final commit before pushing periodic_table"
+git push origin main
+git status
+git status periodic_table
+git check-ignore -v periodic_table/config.txt periodic_table/element.sh periodic_table/periodic_table.sql periodic_table/README.md
+git submodule deinit -f periodic_table
+git add .
