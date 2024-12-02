@@ -433,3 +433,25 @@ git status
 camper: /project$ git status
 git push origin main
 git add .
+rm -rf periodic_table/.git
+git add periodic_table
+git commit -m "chore: Add periodic_table content to main repository"
+git push origin main
+git status
+ls --color=auto
+git add periodic_table
+git commit -m "chore: Add periodic_table folder"
+git push origin main
+cat .gitignore
+git add periodic_table
+git status
+__vsc_prompt_cmd_original
+nano .gitignore
+git status
+git add .gitignore
+git add periodic_table
+git commit -m "chore: Ensure periodic_table is tracked"
+git push origin main
+ls --color=auto periodic_table
+git status
+git add .
